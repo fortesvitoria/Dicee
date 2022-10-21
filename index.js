@@ -21,7 +21,7 @@ if (dice1 > dice2) {
 const refreshButton = document.querySelector('.refresh-button');
 
 const refreshPage = () => {
-  location.reload();
+    location.reload();
 }
 
 refreshButton.addEventListener('click', refreshPage)
